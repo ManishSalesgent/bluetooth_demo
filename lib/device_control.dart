@@ -86,7 +86,7 @@ class _DeviceControlState extends State<DeviceControl> {
                   event.uuid,
                   (event.isSuccess
                           ? "read data success signal and data:"
-                          : "read data failed signal and data:") +
+                          : "read data failed signal and data: aas") +
                       (data ?? "none"),
                   DateTime.now().toString()));
         });
